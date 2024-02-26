@@ -1,4 +1,3 @@
-
 public class Lab {
     /**
      * Java relies very heavily on OOP, so all of our code will rely on Objects. Before we write our own objects,
@@ -18,6 +17,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+    Object instance = new Object();
+            return instance;
+        }
     }
-}
